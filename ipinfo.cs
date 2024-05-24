@@ -39,6 +39,12 @@ namespace IP_Info
                     Clear();
                     Logo();
 
+                    double latitude = ipInfo.lat;
+                    double longitude = ipInfo.lon;
+
+                    string googleMapsLink = $"https://www.google.com/maps?q={latitude},{longitude}";
+                    string googleEarthLink = $"https://earth.google.com/web/@{latitude},{longitude}";
+
                     for (int i = 0; i <= 100; i++)
                     {
                         Write($"\r\t\x1b[1;34mFetching... \x1b[1;32;42m{i}%\x1b[0m");
@@ -60,6 +66,8 @@ namespace IP_Info
                         WriteLine($"\tZIP Code: {ipInfo.zip}");
                         Thread.Sleep(100);
                         WriteLine($"\tLatitude & Longitude: {ipInfo.lat.ToString().Replace(',', '.')}, {ipInfo.lon.ToString().Replace(',', '.')}");
+                        WriteLine($"\tGoogle Maps: {googleMapsLink}");
+                        WriteLine($"\tGoogle Earth: {googleEarthLink}");
 
                         Thread.Sleep(100);
                         WriteLine($"\n\tTime Zone: {ipInfo.timezone}");
@@ -108,6 +116,8 @@ namespace IP_Info
                         WriteLine($"\t\x1b[1;36mZIP Code: \x1b[1;33m{ipInfo.zip}");
                         Thread.Sleep(10);
                         WriteLine($"\t\x1b[1;36mLatitude & Longitude: \x1b[1;33m{ipInfo.lat.ToString().Replace(',', '.')}\x1b[1;37m, \x1b[1;33m{ipInfo.lon.ToString().Replace(',', '.')}");
+                        WriteLine($"\t\x1b[0;34mGoogle Maps\x1b[0;37m: \x1b[1;35m{googleMapsLink}");
+                        WriteLine($"\t\x1b[0;34mGoogle Earth\x1b[0;37m: \x1b[1;35m{googleEarthLink}");
 
                         Thread.Sleep(10);
                         WriteLine($"\n\t\x1b[1;36mTime Zone: \x1b[1;33m{ipInfo.timezone}");
