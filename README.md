@@ -5,6 +5,7 @@ IP-Info is a C# console application that provides information about IP addresses
 ## Download and install Microsoft packages and .NET SDK.
 
 1. Install the Microsoft packages:
+
    A)
    ```sh
    wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
@@ -18,7 +19,7 @@ IP-Info is a C# console application that provides information about IP addresses
    rm packages-microsoft-prod.deb
    ```
 
-2. Installing the .NET SDK:
+3. Installing the .NET SDK:
    ```sh
    sudo apt-get install -y dotnet-sdk-8.0
    ```
@@ -28,6 +29,7 @@ IP-Info is a C# console application that provides information about IP addresses
 ### Cloning the Repository:
 
 1. Clone the repository:
+
    A)
    ```sh
    git clone https://github.com/jetblack90/IP-Info.git
