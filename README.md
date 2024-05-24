@@ -1,4 +1,4 @@
-![image](https://github.com/jetblack90/IP-Info/assets/97771094/89077797-131a-448b-b3ab-ffbb0c72ab21)# IP-Info
+# IP-Info
 
 IP-Info is a C# console application that provides information about IP addresses. It allows users to look up information for a specific IP address or check their own public IP address.
 
