@@ -30,7 +30,13 @@ IP-Info is a C# console application that provides information about IP addresses
 
    - To look up information for a specific IP address:
      ```sh
-     dotnet run IP_ADDRESS
+     dotnet run [IP_ADDRESS]
+     ```
+
+4. Get help commands:
+   - To check the help commands:
+     ```sh
+     dotnet run -h or --help
      ```
 
 ### Additional Notes:
