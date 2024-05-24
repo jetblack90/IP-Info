@@ -24,9 +24,7 @@ IP-Info is a C# console application that provides information about IP addresses
    sudo apt-get install -y dotnet-sdk-8.0
    ```
 
-## How to Use
-
-### Cloning the Repository:
+## Cloning the Repository
 
 1. Clone the repository:
 
@@ -47,7 +45,9 @@ IP-Info is a C# console application that provides information about IP addresses
    dotnet build
    ```
 
-3. Run the application:
+## How to Use
+
+1. Run the application:
    - To check your own public IP address:
      ```sh
      dotnet run -myip
@@ -58,7 +58,7 @@ IP-Info is a C# console application that provides information about IP addresses
      dotnet run [IP_ADDRESS]
      ```
 
-4. Get help commands:
+2. Get help commands:
    - To check the help commands:
      ```sh
      dotnet run -h or --help
