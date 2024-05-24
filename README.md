@@ -5,7 +5,7 @@ IP-Info is a C# console application that provides information about IP addresses
 ![image](https://github.com/jetblack90/IP-Info/assets/97771094/b9c68cb8-edd2-44c0-ba54-c09fd7e7f5b4)
 
 
-## 1 .Download and install Microsoft packages and .NET SDK.
+## 1. Download and install Microsoft packages and .NET SDK to run C#-written tools.
 
 1:1. Install the Microsoft packages:
 
