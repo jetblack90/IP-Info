@@ -8,7 +8,10 @@ IP-Info is a C# console application that provides information about IP addresses
 
 1. Clone the repository:
    ```sh
+   A)
    git clone https://github.com/jetblack90/IP-Info.git
+
+   B)
    cd IP-Info
    ```
 
